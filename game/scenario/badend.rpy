@@ -1,0 +1,2 @@
+label badend:
+    return
