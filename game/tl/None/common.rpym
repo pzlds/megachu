@@ -79,7 +79,7 @@ translate None strings:
 
     # renpy/common/00accessibility.rpy:180
     old "High Contrast Text"
-    new "High Contrast Text"
+    new "ハイコントラストテキスト"
 
     # renpy/common/00accessibility.rpy:182
     old "Enable"
@@ -111,7 +111,7 @@ translate None strings:
 
     # renpy/common/00accessibility.rpy:215
     old "Self-Voicing Volume Drop"
-    new "自己発話音量"
+    new "セルフボイシングボリューム低減"
 
     # renpy/common/00accessibility.rpy:224
     old "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
@@ -277,65 +277,69 @@ translate None strings:
     old "%b %d, %H:%M"
     new "%m月%d日, %H:%M"
 
-    # renpy/common/00action_file.rpy:363
+    # renpy/common/00action_file.rpy:364
     old "Save slot %s: [text]"
     new "スロット%s: [text]にセーブ"
 
-    # renpy/common/00action_file.rpy:444
+    # renpy/common/00action_file.rpy:445
     old "Load slot %s: [text]"
     new "スロット%s: [text]をロード"
 
-    # renpy/common/00action_file.rpy:497
+    # renpy/common/00action_file.rpy:498
     old "Delete slot [text]"
     new "スロット[text]を削除"
 
-    # renpy/common/00action_file.rpy:576
+    # renpy/common/00action_file.rpy:577
     old "File page auto"
     new "オートファイルページ"
 
-    # renpy/common/00action_file.rpy:578
+    # renpy/common/00action_file.rpy:579
     old "File page quick"
     new "クイックファイルページ"
 
-    # renpy/common/00action_file.rpy:580
+    # renpy/common/00action_file.rpy:581
     old "File page [text]"
     new "ファイルページ[text]"
 
-    # renpy/common/00action_file.rpy:638
+    # renpy/common/00action_file.rpy:639
     old "Page {}"
     new "ページ {}"
 
-    # renpy/common/00action_file.rpy:638
+    # renpy/common/00action_file.rpy:639
     old "Automatic saves"
     new "オートセーブ"
 
-    # renpy/common/00action_file.rpy:638
+    # renpy/common/00action_file.rpy:639
     old "Quick saves"
     new "クイックセーブ"
 
-    # renpy/common/00action_file.rpy:779
+    # renpy/common/00action_file.rpy:780
     old "Next file page."
     new "次のファイルページ"
 
-    # renpy/common/00action_file.rpy:851
+    # renpy/common/00action_file.rpy:852
     old "Previous file page."
     new "前のファイルページ"
 
-    # renpy/common/00action_file.rpy:912
+    # renpy/common/00action_file.rpy:913
     old "Quick save complete."
     new "クイックセーブ完了。"
 
-    # renpy/common/00action_file.rpy:930
+    # renpy/common/00action_file.rpy:931
     old "Quick save."
     new "クイックセーブ"
 
-    # renpy/common/00action_file.rpy:949
+    # renpy/common/00action_file.rpy:950
     old "Quick load."
     new "クイックロード"
 
-    # renpy/common/00action_other.rpy:375
+    # renpy/common/00action_other.rpy:381
     old "Language [text]"
     new "言語 [text]"
+
+    # renpy/common/00action_other.rpy:703
+    old "Open [text] directory."
+    new "[text] ディレクトリーを開きます。"
 
     # renpy/common/00director.rpy:708
     old "The interactive director is not enabled here."
@@ -429,247 +433,259 @@ translate None strings:
     old "Audio Filename:"
     new "オーディオファイルネーム:"
 
-    # renpy/common/00gui.rpy:384
+    # renpy/common/00gui.rpy:445
     old "Are you sure?"
     new "続けますか？"
 
-    # renpy/common/00gui.rpy:385
+    # renpy/common/00gui.rpy:446
     old "Are you sure you want to delete this save?"
     new "このセーブデータを消去しますか？"
 
-    # renpy/common/00gui.rpy:386
+    # renpy/common/00gui.rpy:447
     old "Are you sure you want to overwrite your save?"
     new "このセーブデータに上書きしますか？"
 
-    # renpy/common/00gui.rpy:387
+    # renpy/common/00gui.rpy:448
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
     new "ロードすると、セーブされていない進行状況は失われます。\nロードしますか？"
 
-    # renpy/common/00gui.rpy:388
+    # renpy/common/00gui.rpy:449
     old "Are you sure you want to quit?"
     new "終了しますか？"
 
-    # renpy/common/00gui.rpy:389
+    # renpy/common/00gui.rpy:450
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
     new "メインメニューに戻りますか？\nセーブされていない進行状況は失われます。"
 
-    # renpy/common/00gui.rpy:390
+    # renpy/common/00gui.rpy:451
     old "Are you sure you want to end the replay?"
     new "リプレイを終了しますか？"
 
-    # renpy/common/00gui.rpy:391
+    # renpy/common/00gui.rpy:452
     old "Are you sure you want to begin skipping?"
     new "スキップを開始しますか？"
 
-    # renpy/common/00gui.rpy:392
+    # renpy/common/00gui.rpy:453
     old "Are you sure you want to skip to the next choice?"
     new "次の選択肢までスキップしますか？"
 
-    # renpy/common/00gui.rpy:393
+    # renpy/common/00gui.rpy:454
     old "Are you sure you want to skip unseen dialogue to the next choice?"
     new "次の選択肢まで、未読テキストをスキップしますか？"
 
-    # renpy/common/00keymap.rpy:306
+    # renpy/common/00keymap.rpy:310
     old "Failed to save screenshot as %s."
     new "ファイル名 %s のスクリーンショットの保存に失敗しました。"
 
-    # renpy/common/00keymap.rpy:318
+    # renpy/common/00keymap.rpy:322
     old "Saved screenshot as %s."
     new "スクリーンショットを %s に保存しました。"
 
-    # renpy/common/00library.rpy:195
+    # renpy/common/00library.rpy:230
     old "Skip Mode"
     new "スキップモード"
 
-    # renpy/common/00library.rpy:281
+    # renpy/common/00library.rpy:316
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
     new "本プログラムは、MIT License や GNU Lesser General Public License など、様々なライセンスのフリーウェアを含んでいます。 フルソースコードへのリンクを含む、完全なソフトウェアのリストは、{a=https://www.renpy.org/l/license}ここ{/a}にあります。"
 
-    # renpy/common/00preferences.rpy:254
+    # renpy/common/00preferences.rpy:259
     old "display"
     new "表示"
 
-    # renpy/common/00preferences.rpy:266
+    # renpy/common/00preferences.rpy:271
     old "transitions"
     new "トランジション"
 
-    # renpy/common/00preferences.rpy:275
+    # renpy/common/00preferences.rpy:280
     old "skip transitions"
     new "トランジションをスキップ"
 
-    # renpy/common/00preferences.rpy:277
+    # renpy/common/00preferences.rpy:282
     old "video sprites"
     new "ビデオ スプライト"
 
-    # renpy/common/00preferences.rpy:286
+    # renpy/common/00preferences.rpy:291
     old "show empty window"
     new "空のウィンドウを表示"
 
-    # renpy/common/00preferences.rpy:295
+    # renpy/common/00preferences.rpy:300
     old "text speed"
     new "テキストスピード"
 
-    # renpy/common/00preferences.rpy:303
+    # renpy/common/00preferences.rpy:308
     old "joystick"
     new "ジョイスティック"
 
-    # renpy/common/00preferences.rpy:303
+    # renpy/common/00preferences.rpy:308
     old "joystick..."
     new "ジョイスティック..."
 
-    # renpy/common/00preferences.rpy:310
+    # renpy/common/00preferences.rpy:315
     old "skip"
     new "スキップ"
 
-    # renpy/common/00preferences.rpy:313
+    # renpy/common/00preferences.rpy:318
     old "skip unseen [text]"
     new "未読の[text]をスキップ"
 
-    # renpy/common/00preferences.rpy:318
+    # renpy/common/00preferences.rpy:323
     old "skip unseen text"
     new "未読のテキストをスキップ"
 
-    # renpy/common/00preferences.rpy:320
+    # renpy/common/00preferences.rpy:325
     old "begin skipping"
     new "スキップ開始"
 
-    # renpy/common/00preferences.rpy:324
+    # renpy/common/00preferences.rpy:329
     old "after choices"
     new "選択肢後"
 
-    # renpy/common/00preferences.rpy:331
+    # renpy/common/00preferences.rpy:336
     old "skip after choices"
     new "選択肢後もスキップ"
 
-    # renpy/common/00preferences.rpy:333
+    # renpy/common/00preferences.rpy:338
     old "auto-forward time"
     new "オート待ち時間"
 
-    # renpy/common/00preferences.rpy:347
+    # renpy/common/00preferences.rpy:352
     old "auto-forward"
     new "オート送り"
 
-    # renpy/common/00preferences.rpy:354
+    # renpy/common/00preferences.rpy:359
     old "Auto forward"
     new "オート送り"
 
-    # renpy/common/00preferences.rpy:357
+    # renpy/common/00preferences.rpy:362
     old "auto-forward after click"
     new "クリック後もオート"
 
-    # renpy/common/00preferences.rpy:366
+    # renpy/common/00preferences.rpy:371
     old "automatic move"
     new "自動ムービー"
 
-    # renpy/common/00preferences.rpy:375
+    # renpy/common/00preferences.rpy:380
     old "wait for voice"
     new "ボイスを待つ"
 
-    # renpy/common/00preferences.rpy:384
+    # renpy/common/00preferences.rpy:389
     old "voice sustain"
     new "voice sustain"
 
-    # renpy/common/00preferences.rpy:393
+    # renpy/common/00preferences.rpy:398
     old "self voicing"
     new "セルフボイシング"
 
-    # renpy/common/00preferences.rpy:402
+    # renpy/common/00preferences.rpy:407
     old "self voicing volume drop"
     new "セルフボイシングボリュームを下げる"
 
-    # renpy/common/00preferences.rpy:410
+    # renpy/common/00preferences.rpy:415
     old "clipboard voicing"
     new "クリップボードボイシング"
 
-    # renpy/common/00preferences.rpy:419
+    # renpy/common/00preferences.rpy:424
     old "debug voicing"
     new "ボイシングのデバッグ"
 
-    # renpy/common/00preferences.rpy:428
+    # renpy/common/00preferences.rpy:433
     old "emphasize audio"
     new "オーディオの強調"
 
-    # renpy/common/00preferences.rpy:437
+    # renpy/common/00preferences.rpy:442
     old "rollback side"
     new "ロールバックサイド"
 
-    # renpy/common/00preferences.rpy:447
+    # renpy/common/00preferences.rpy:452
     old "gl powersave"
     new "ＧＬパワーセーブ"
 
-    # renpy/common/00preferences.rpy:453
+    # renpy/common/00preferences.rpy:458
     old "gl framerate"
     new "ＧＬフレームレート"
 
-    # renpy/common/00preferences.rpy:456
+    # renpy/common/00preferences.rpy:461
     old "gl tearing"
     new "ＧＬティアリング"
 
-    # renpy/common/00preferences.rpy:459
+    # renpy/common/00preferences.rpy:464
     old "font transform"
     new "フォント変換"
 
-    # renpy/common/00preferences.rpy:462
+    # renpy/common/00preferences.rpy:467
     old "font size"
     new "フォントサイズ"
 
-    # renpy/common/00preferences.rpy:470
+    # renpy/common/00preferences.rpy:475
     old "font line spacing"
     new "フォントの行間"
 
-    # renpy/common/00preferences.rpy:478
+    # renpy/common/00preferences.rpy:483
     old "system cursor"
-    new "system cursor"
+    new "システムカーソル"
 
-    # renpy/common/00preferences.rpy:487
+    # renpy/common/00preferences.rpy:492
     old "renderer menu"
-    new "renderer menu"
+    new "レンダーメニュー"
 
-    # renpy/common/00preferences.rpy:490
+    # renpy/common/00preferences.rpy:495
     old "accessibility menu"
-    new "accessibility menu"
+    new "アクセス性メニュー"
 
-    # renpy/common/00preferences.rpy:493
+    # renpy/common/00preferences.rpy:498
     old "high contrast text"
-    new "high contrast text"
+    new "ハイコントラストテキスト"
 
-    # renpy/common/00preferences.rpy:512
+    # renpy/common/00preferences.rpy:507
+    old "audio when minimized"
+    new "最小化時音声"
+
+    # renpy/common/00preferences.rpy:527
+    old "main volume"
+    new "メインの音量"
+
+    # renpy/common/00preferences.rpy:528
     old "music volume"
     new "音楽の音量"
 
-    # renpy/common/00preferences.rpy:513
+    # renpy/common/00preferences.rpy:529
     old "sound volume"
     new "効果音の音量"
 
-    # renpy/common/00preferences.rpy:514
+    # renpy/common/00preferences.rpy:530
     old "voice volume"
     new "ボイスの音量"
 
-    # renpy/common/00preferences.rpy:515
+    # renpy/common/00preferences.rpy:531
+    old "mute main"
+    new "メインをミュート"
+
+    # renpy/common/00preferences.rpy:532
     old "mute music"
     new "音楽をミュート"
 
-    # renpy/common/00preferences.rpy:516
+    # renpy/common/00preferences.rpy:533
     old "mute sound"
     new "効果音をミュート"
 
-    # renpy/common/00preferences.rpy:517
+    # renpy/common/00preferences.rpy:534
     old "mute voice"
     new "ボイスをミュート"
 
-    # renpy/common/00preferences.rpy:518
+    # renpy/common/00preferences.rpy:535
     old "mute all"
     new "音声を全てミュート"
 
-    # renpy/common/00preferences.rpy:599
+    # renpy/common/00preferences.rpy:616
     old "Clipboard voicing enabled. Press 'shift+C' to disable."
     new "クリップボードボイシングを有効化しました。 'shift+C'で無効化します。"
 
-    # renpy/common/00preferences.rpy:601
+    # renpy/common/00preferences.rpy:618
     old "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
     new "セルフボイシングは次のように話します。 \"[renpy.display.tts.last]\". 'alt+shift+V' で無効化します。"
 
-    # renpy/common/00preferences.rpy:603
+    # renpy/common/00preferences.rpy:620
     old "Self-voicing enabled. Press 'v' to disable."
     new "セルフボイシングを有効化しました。 'v' で無効化します。"
 
@@ -677,115 +693,115 @@ translate None strings:
     old "Contacting App Store\nPlease Wait..."
     new "App Store にコンタクトしています。\nしばらくお待ちください…"
 
-    # renpy/common/00updater.rpy:391
+    # renpy/common/00updater.rpy:419
     old "The Ren'Py Updater is not supported on mobile devices."
     new "モバイルデバイスでのアップデートはサポートしていません。"
 
-    # renpy/common/00updater.rpy:520
+    # renpy/common/00updater.rpy:548
     old "An error is being simulated."
     new "エラーがシミュレートされました。"
 
-    # renpy/common/00updater.rpy:704
+    # renpy/common/00updater.rpy:738
     old "Either this project does not support updating, or the update status file was deleted."
     new "このプロジェクトはアップデートをサポートしていないか、アップデート用のファイルが削除されています。"
 
-    # renpy/common/00updater.rpy:718
+    # renpy/common/00updater.rpy:752
     old "This account does not have permission to perform an update."
     new "このアカウントにはアップデート処理の権限がありません。"
 
-    # renpy/common/00updater.rpy:721
+    # renpy/common/00updater.rpy:755
     old "This account does not have permission to write the update log."
     new "このアカウントにはアップデートログを記録する権限がありません。"
 
-    # renpy/common/00updater.rpy:746
+    # renpy/common/00updater.rpy:783
     old "Could not verify update signature."
     new "アップデートシグネチャーを認証出来ません。"
 
-    # renpy/common/00updater.rpy:1013
+    # renpy/common/00updater.rpy:1084
     old "The update file was not downloaded."
     new "アップデートファイルをダウンロードできませんでした。"
 
-    # renpy/common/00updater.rpy:1031
+    # renpy/common/00updater.rpy:1102
     old "The update file does not have the correct digest - it may have been corrupted."
     new "アップデートファイルは正しい digest を持っていません - 破損の可能性がありまます。"
 
-    # renpy/common/00updater.rpy:1181
+    # renpy/common/00updater.rpy:1252
     old "While unpacking {}, unknown type {}."
     new "{} を解凍中に、未知のタイプ {} を検出しました。"
 
-    # renpy/common/00updater.rpy:1553
+    # renpy/common/00updater.rpy:1624
     old "Updater"
     new "アップデーター"
 
-    # renpy/common/00updater.rpy:1560
+    # renpy/common/00updater.rpy:1631
     old "An error has occured:"
     new "エラーが発生しました。"
 
-    # renpy/common/00updater.rpy:1562
+    # renpy/common/00updater.rpy:1633
     old "Checking for updates."
     new "更新をチェックしています。"
 
-    # renpy/common/00updater.rpy:1564
+    # renpy/common/00updater.rpy:1635
     old "This program is up to date."
     new "このプログラムは最新の状態です。"
 
-    # renpy/common/00updater.rpy:1566
+    # renpy/common/00updater.rpy:1637
     old "[u.version] is available. Do you want to install it?"
     new "[u.version] が利用可能です。インストールしますか？"
 
-    # renpy/common/00updater.rpy:1568
+    # renpy/common/00updater.rpy:1639
     old "Preparing to download the updates."
     new "ダウンロードする準備をしています。"
 
-    # renpy/common/00updater.rpy:1570
+    # renpy/common/00updater.rpy:1641
     old "Downloading the updates."
     new "アップデートをダウンロードしています。"
 
-    # renpy/common/00updater.rpy:1572
+    # renpy/common/00updater.rpy:1643
     old "Unpacking the updates."
     new "アップデートを展開しています。"
 
-    # renpy/common/00updater.rpy:1574
+    # renpy/common/00updater.rpy:1645
     old "Finishing up."
     new "更新を完了しました。"
 
-    # renpy/common/00updater.rpy:1576
+    # renpy/common/00updater.rpy:1647
     old "The updates have been installed. The program will restart."
     new "アップデートをインストールしました。プログラムを再起動します。"
 
-    # renpy/common/00updater.rpy:1578
+    # renpy/common/00updater.rpy:1649
     old "The updates have been installed."
     new "アップデートが完了しました。"
 
-    # renpy/common/00updater.rpy:1580
+    # renpy/common/00updater.rpy:1651
     old "The updates were cancelled."
     new "アップデートをキャンセルしました。"
 
-    # renpy/common/00updater.rpy:1595
+    # renpy/common/00updater.rpy:1666
     old "Proceed"
     new "続行"
 
-    # renpy/common/00compat.rpy:324
+    # renpy/common/00compat.rpy:371
     old "Fullscreen"
     new "フルスクリーン"
 
-    # renpy/common/00gallery.rpy:590
+    # renpy/common/00gallery.rpy:627
     old "Image [index] of [count] locked."
     new "画像 [index] / [count] はロックされています。"
 
-    # renpy/common/00gallery.rpy:610
+    # renpy/common/00gallery.rpy:647
     old "prev"
     new "前へ"
 
-    # renpy/common/00gallery.rpy:611
+    # renpy/common/00gallery.rpy:648
     old "next"
     new "次へ"
 
-    # renpy/common/00gallery.rpy:612
+    # renpy/common/00gallery.rpy:649
     old "slideshow"
     new "スライドショー"
 
-    # renpy/common/00gallery.rpy:613
+    # renpy/common/00gallery.rpy:650
     old "return"
     new "戻る"
 
@@ -827,7 +843,7 @@ translate None strings:
 
     # renpy/common/00gltest.rpy:136
     old "Enable (No Blocklist)"
-    new "Enable (No Blocklist)"
+    new "有効 (ブロックリスト無効化)"
 
     # renpy/common/00gltest.rpy:150
     old "Calibrate"
@@ -887,7 +903,7 @@ translate None strings:
 
     # renpy/common/00gltest.rpy:259
     old "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
-    new "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
+    new "{a=edit:1:log.txt}log.txt{/a} ファイルにある情報は何があなたのコンピュータで問題になっているか探る手助けになるでしょう"
 
     # renpy/common/00gltest.rpy:264
     old "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
@@ -919,7 +935,7 @@ translate None strings:
 
     # renpy/common/00gamepad.rpy:58
     old "Press or move the '[control!s]' [kind]."
-    new "Press or move the '[control!s]' [kind]."
+    new "'[control!s]' [kind] を押すか動かしてください"
 
     # renpy/common/00gamepad.rpy:68
     old "Skip (A)"
@@ -929,75 +945,75 @@ translate None strings:
     old "Back (B)"
     new " 戻る (B)"
 
-    # renpy/common/_errorhandling.rpym:553
+    # renpy/common/_errorhandling.rpym:555
     old "Open"
     new "開く"
 
-    # renpy/common/_errorhandling.rpym:555
+    # renpy/common/_errorhandling.rpym:557
     old "Opens the traceback.txt file in a text editor."
     new "テキストエディターで traceback.txt を開きます。"
 
-    # renpy/common/_errorhandling.rpym:557
+    # renpy/common/_errorhandling.rpym:559
     old "Copy BBCode"
     new "BBCode でコピー"
 
-    # renpy/common/_errorhandling.rpym:559
+    # renpy/common/_errorhandling.rpym:561
     old "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
     new "クリップボードに traceback.txt を https://lemmasoft.renai.us/ 等のフォーラムに適した BBcode 形式でコピーする。"
 
-    # renpy/common/_errorhandling.rpym:561
+    # renpy/common/_errorhandling.rpym:563
     old "Copy Markdown"
     new "Markdown でコピー"
 
-    # renpy/common/_errorhandling.rpym:563
+    # renpy/common/_errorhandling.rpym:565
     old "Copies the traceback.txt file to the clipboard as Markdown for Discord."
     new "クリップボードに traceback.txt を Discord に適した Markdown 形式でコピーする。"
 
-    # renpy/common/_errorhandling.rpym:592
+    # renpy/common/_errorhandling.rpym:594
     old "An exception has occurred."
     new "例外が発生しました。"
 
-    # renpy/common/_errorhandling.rpym:615
+    # renpy/common/_errorhandling.rpym:617
     old "Rollback"
     new "ロールバック"
 
-    # renpy/common/_errorhandling.rpym:617
+    # renpy/common/_errorhandling.rpym:619
     old "Attempts a roll back to a prior time, allowing you to save or choose a different choice."
     new "セーブまたは他の選択肢が選べるように、ロールバックを使って直前に戻ります。"
 
-    # renpy/common/_errorhandling.rpym:620
+    # renpy/common/_errorhandling.rpym:622
     old "Ignore"
     new "無視"
 
-    # renpy/common/_errorhandling.rpym:624
+    # renpy/common/_errorhandling.rpym:626
     old "Ignores the exception, allowing you to continue."
     new "例外を無視し、プログラムの続行を許可します。"
 
-    # renpy/common/_errorhandling.rpym:626
+    # renpy/common/_errorhandling.rpym:628
     old "Ignores the exception, allowing you to continue. This often leads to additional errors."
     new "例外を無視してゲームを続行します。連鎖的にエラーが発生する可能性があります。"
 
-    # renpy/common/_errorhandling.rpym:630
+    # renpy/common/_errorhandling.rpym:632
     old "Reload"
     new "リロード"
 
-    # renpy/common/_errorhandling.rpym:632
+    # renpy/common/_errorhandling.rpym:634
     old "Reloads the game from disk, saving and restoring game state if possible."
     new "ディスクからゲームをリロードして、現在の状況を保存、可能であれば復元します。"
 
-    # renpy/common/_errorhandling.rpym:635
+    # renpy/common/_errorhandling.rpym:637
     old "Console"
     new "コンソール"
 
-    # renpy/common/_errorhandling.rpym:637
+    # renpy/common/_errorhandling.rpym:639
     old "Opens a console to allow debugging the problem."
     new "コンソールを開き、問題をデバッグします。"
 
-    # renpy/common/_errorhandling.rpym:650
+    # renpy/common/_errorhandling.rpym:652
     old "Quits the game."
     new "ゲームを終了します。"
 
-    # renpy/common/_errorhandling.rpym:671
+    # renpy/common/_errorhandling.rpym:673
     old "Parsing the script failed."
     new "スクリプトの変換に失敗しました。"
 
@@ -1089,23 +1105,23 @@ translate None strings:
     old "Type to filter: "
     new "フィルタして検索: "
 
-    # renpy/common/_developer/developer.rpym:631
+    # renpy/common/_developer/developer.rpym:633
     old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
     new "テクスチャー: [tex_count] ([tex_size_mb:.1f] MB)"
 
-    # renpy/common/_developer/developer.rpym:635
+    # renpy/common/_developer/developer.rpym:637
     old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
     new "イメージキャッシュ: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
 
-    # renpy/common/_developer/developer.rpym:645
+    # renpy/common/_developer/developer.rpym:647
     old "✔ "
     new "✔ "
 
-    # renpy/common/_developer/developer.rpym:648
+    # renpy/common/_developer/developer.rpym:650
     old "✘ "
     new "✘ "
 
-    # renpy/common/_developer/developer.rpym:653
+    # renpy/common/_developer/developer.rpym:655
     old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
     new "\n{color=#cfc}✔ 予測済みの画像 (good){/color}\n{color=#fcc}✘ 未予測の画像 (bad){/color}\n{color=#fff}ドラッグすると動かせます。{/color}"
 
@@ -1145,84 +1161,88 @@ translate None strings:
     old "<repr() failed>"
     new "<repr() 失敗>"
 
-    # renpy/common/00console.rpy:492
+    # renpy/common/00console.rpy:524
     old "Press <esc> to exit console. Type help for help.\n"
     new "<esc> を押して終了。help と入力してヘルプを表示。\n"
 
-    # renpy/common/00console.rpy:496
+    # renpy/common/00console.rpy:528
     old "Ren'Py script enabled."
     new "Ren'Py スクリプト有効。"
 
-    # renpy/common/00console.rpy:498
+    # renpy/common/00console.rpy:530
     old "Ren'Py script disabled."
     new "Ren'Py スクリプト無効。"
 
-    # renpy/common/00console.rpy:747
+    # renpy/common/00console.rpy:779
     old "help: show this help"
     new "help: このヘルプを表示"
 
-    # renpy/common/00console.rpy:752
+    # renpy/common/00console.rpy:784
     old "commands:\n"
     new "コマンド:\n"
 
-    # renpy/common/00console.rpy:762
+    # renpy/common/00console.rpy:794
     old " <renpy script statement>: run the statement\n"
     new " <Ren'Py スクリプトステートメント>: ステートメントを実行\n"
 
-    # renpy/common/00console.rpy:764
+    # renpy/common/00console.rpy:796
     old " <python expression or statement>: run the expression or statement"
     new " <Python 式またはステートメント>: 式またはステートメントを実行"
 
-    # renpy/common/00console.rpy:772
+    # renpy/common/00console.rpy:804
     old "clear: clear the console history"
     new "clear: コンソール履歴を消去"
 
-    # renpy/common/00console.rpy:776
+    # renpy/common/00console.rpy:808
     old "exit: exit the console"
     new "exit: コンソールを終了"
 
-    # renpy/common/00console.rpy:784
+    # renpy/common/00console.rpy:816
+    old "stack: print the return stack"
+    new "stack: リターンスタックの出力"
+
+    # renpy/common/00console.rpy:838
     old "load <slot>: loads the game from slot"
     new "load <スロット>: スロットからゲームをロード"
 
-    # renpy/common/00console.rpy:797
+    # renpy/common/00console.rpy:851
     old "save <slot>: saves the game in slot"
     new "save <スロット>: スロットにゲームを保存"
 
-    # renpy/common/00console.rpy:808
+    # renpy/common/00console.rpy:862
     old "reload: reloads the game, refreshing the scripts"
     new "reload: ゲームをリロードしてスクリプトを再読み込み"
 
-    # renpy/common/00console.rpy:816
+    # renpy/common/00console.rpy:870
     old "watch <expression>: watch a python expression\n watch short: makes the representation of traced expressions short (default)\n watch long: makes the representation of traced expressions as is"
     new "watch <expression>: python式をウォッチ\n watch short: makes the representation of traced expressions short (default)\n watch long: makes the representation of traced expressions as is"
 
-    # renpy/common/00console.rpy:851
+    # renpy/common/00console.rpy:907
     old "unwatch <expression>: stop watching an expression"
     new "unwatch <式>: Python 式のウォッチを解除"
 
-    # renpy/common/00console.rpy:886
+    # renpy/common/00console.rpy:953
     old "unwatchall: stop watching all expressions"
     new "unwatchall: すべての式のウォッチを解除"
 
-    # renpy/common/00console.rpy:903
+    # renpy/common/00console.rpy:974
     old "jump <label>: jumps to label"
     new "jump <ラベル>: ラベルにジャンプ"
 
-    # renpy/common/00console.rpy:919
+    # renpy/common/00console.rpy:990
     old "short: Shorten the representation of objects on the console (default)."
     new "short: コンソール上のオブジェクトを短く表現する（デフォルト）"
 
-    # renpy/common/00console.rpy:923
+    # renpy/common/00console.rpy:994
     old "long: Print the full representation of objects on the console."
     new "long: コンソール上のオブジェクトを全て表現する"
 
-    # renpy/common/00console.rpy:927
+    # renpy/common/00console.rpy:998
     old "escape: Enables escaping of unicode symbols in unicode strings."
     new "escape: ユニコード文字列中でのユニコードシンボルのエスケープを有効化"
 
-    # renpy/common/00console.rpy:931
+    # renpy/common/00console.rpy:1002
     old "unescape: Disables escaping of unicode symbols in unicode strings and print it as is (default)."
     new "unescape: ユニコード文字列中でのユニコードシンボルのエスケープを無効化し (default) として表示"
 
-define gui.system_font = u'SourceHanSansLite.ttf'
+define gui.system_font = 'SourceHanSansLite.ttf'

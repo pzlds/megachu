@@ -160,6 +160,7 @@ style say_dialogue:
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
 
+    adjust_spacing False
 
 ## Input screen ################################################################
 ##
@@ -177,7 +178,7 @@ screen input(prompt):
     window:
 
         vbox:
-            xalign gui.dialogue_text_xalign
+            xanchor gui.dialogue_text_xalign
             xpos gui.dialogue_xpos
             xsize gui.dialogue_width
             ypos gui.dialogue_ypos
@@ -210,11 +211,6 @@ screen choice(items):
     vbox:
         for i in items:
             textbutton i.caption action i.action
-
-
-## When this is true, menu captions will be spoken by the narrator. When false,
-## menu captions will be displayed as empty buttons.
-define config.narrator_menu = True
 
 
 style choice_vbox is vbox
@@ -373,7 +369,6 @@ screen main_menu():
 
 
 style main_menu_frame is empty
-style main_menu_vbox is vbox
 
 style main_menu_frame:
     xsize 175
@@ -743,18 +738,11 @@ screen preferences():
                         textbutton _("フルスクリーン") action Preference("display", "fullscreen")
 
                 vbox:
-                    style_prefix "radio"
-                    label _("ロールバック\nサイド")
-                    textbutton _("無効") action Preference("rollback side", "disable")
-                    textbutton _("レフト") action Preference("rollback side", "left")
-                    textbutton _("ライト") action Preference("rollback side", "right")
-
-                vbox:
                     style_prefix "check"
                     label _("スキップ")
-                    textbutton _("未読テキスト") action Preference("skip", "toggle")
-                    textbutton _("選択肢の後") action Preference("after choices", "toggle")
-                    textbutton _("トランジション") action InvertSelected(Preference("transitions", "toggle"))
+                    textbutton _("未読テキストもスキップ") action Preference("skip", "toggle")
+                    textbutton _("選択肢後もスキップ継続") action Preference("after choices", "toggle")
+                    textbutton _("トランジションをスキップ") action InvertSelected(Preference("transitions", "toggle"))
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -930,15 +918,13 @@ screen history():
 
 ## This determines what tags are allowed to be displayed on the history screen.
 
-define gui.history_allow_tags = { "alt", "noalt" }
+define gui.history_allow_tags = { "alt", "noalt", "rt", "rb", "art" }
 
 
 style history_window is empty
 
 style history_name is gui_label
 style history_name_text is gui_label_text
-style history_text is gui_text
-
 style history_text is gui_text
 
 style history_label is gui_label
@@ -1053,11 +1039,11 @@ screen keyboard_help():
 
     hbox:
         label "V"
-        text _("{a=https://www.renpy.org/l/voicing}セルフボイシング{/a}を有効化する。")
+        text _("{a=https://ja.renpy.org/l/voicing}セルフボイシング{/a}を有効化する。")
 
     hbox:
         label "Shift+A"
-        text _("Opens the accessibility menu.")
+        text _("アクセス性メニューを開きます。")
 
 
 screen mouse_help():
@@ -1329,7 +1315,7 @@ screen nvl(dialogue, items=None):
             use nvl_dialogue(dialogue)
 
         ## Displays the menu, if given. The menu may be displayed incorrectly if
-        ## config.narrator_menu is set to True, as it is above.
+        ## config.narrator_menu is set to True.
         for i in items:
 
             textbutton i.caption:
