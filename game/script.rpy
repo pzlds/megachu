@@ -13,6 +13,10 @@ define fauna = DynamicCharacter("fauna_name", image="fau")
 define fauna_name = _("ファウナ")
 define jordh = DynamicCharacter("jordh_name", image="jor")
 define jordh_name = _("ヨルズ")
+define ogami = DynamicCharacter("ogami_name", image="oga")
+define ogami_name = _("大神様")
+define lea = DynamicCharacter("lea_name", image="leu")
+define lea_name = _("レア")
 
 image white = "#ffffff"
 
