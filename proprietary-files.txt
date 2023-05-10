@@ -28,6 +28,7 @@ game/audio/sound/se073.ogg:se/se073.ogg
 game/audio/sound/se095.ogg:se/se095.ogg
 game/audio/sound/se111.ogg:se/se111.ogg
 game/audio/sound/se112.ogg:se/se112.ogg
+game/audio/sound/se115.ogg:se/se115.ogg
 game/audio/sound/se116.ogg:se/se116.ogg
 game/audio/sound/se119.ogg:se/se119.ogg
 game/audio/sound/se191.ogg:se/se191.ogg
@@ -307,6 +308,7 @@ game/audio/voice/op05/op05_0097.ogg:voice/op05/op05_0097.ogg
 game/audio/voice/op05/op05_0098.ogg:voice/op05/op05_0098.ogg
 game/audio/voice/op05/op05_0099.ogg:voice/op05/op05_0099.ogg
 game/audio/voice/op05/op05_0100.ogg:voice/op05/op05_0100.ogg
+game/audio/voice/op06/op06_0000.ogg:voice/op06/op06_0000.ogg
 game/audio/voice/op07/op07_0000.ogg:voice/op07/op07_0000.ogg
 game/audio/voice/op07/op07_0001.ogg:voice/op07/op07_0001.ogg
 game/audio/voice/op07/op07_0002.ogg:voice/op07/op07_0002.ogg
@@ -481,6 +483,7 @@ game/audio/voice/op07/op07_0170.ogg:voice/op07/op07_0170.ogg
 game/audio/voice/op07/op07_0171.ogg:voice/op07/op07_0171.ogg
 game/audio/voice/op07/op07_0172.ogg:voice/op07/op07_0172.ogg
 game/gui/window_icon.png:system/etc/icon.ico
+game/images/bg/bg01ndb.png:image/bg/bg01ndb.bmp
 game/images/bg/bg13.png:image/bg/bg13.bmp
 game/images/bg/bg15c.png:image/bg/bg15c.bmp
 game/images/bg/bg17c.png:image/bg/bg17c.bmp
