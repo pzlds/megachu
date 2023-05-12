@@ -17,6 +17,8 @@ define ogami = DynamicCharacter("ogami_name", image="oga")
 define ogami_name = _("大神様")
 define lea = DynamicCharacter("lea_name", image="leu")
 define lea_name = _("レア")
+define klotho = DynamicCharacter("klotho_name", image="kur")
+define klotho_name = _("クロト")
 
 image white = "#ffffff"
 

@@ -11,6 +11,7 @@ game/audio/bgm/bgm19.ogg:bgm/bgm19.ogg
 game/audio/sound/se011.ogg:se/se011.ogg
 game/audio/sound/se012.ogg:se/se012.ogg
 game/audio/sound/se014.ogg:se/se014.ogg
+game/audio/sound/se015.ogg:se/se015.ogg
 game/audio/sound/se030.ogg:se/se030.ogg
 game/audio/sound/se031.ogg:se/se031.ogg
 game/audio/sound/se032.ogg:se/se032.ogg
@@ -25,6 +26,7 @@ game/audio/sound/se062.ogg:se/se062.ogg
 game/audio/sound/se069.ogg:se/se069.ogg
 game/audio/sound/se072.ogg:se/se072.ogg
 game/audio/sound/se073.ogg:se/se073.ogg
+game/audio/sound/se075.ogg:se/se075.ogg
 game/audio/sound/se095.ogg:se/se095.ogg
 game/audio/sound/se111.ogg:se/se111.ogg
 game/audio/sound/se112.ogg:se/se112.ogg
@@ -482,8 +484,150 @@ game/audio/voice/op07/op07_0169.ogg:voice/op07/op07_0169.ogg
 game/audio/voice/op07/op07_0170.ogg:voice/op07/op07_0170.ogg
 game/audio/voice/op07/op07_0171.ogg:voice/op07/op07_0171.ogg
 game/audio/voice/op07/op07_0172.ogg:voice/op07/op07_0172.ogg
+game/audio/voice/op08/op08_0000.ogg:voice/op08/op08_0000.ogg
+game/audio/voice/op08/op08_0001.ogg:voice/op08/op08_0001.ogg
+game/audio/voice/op08/op08_0002.ogg:voice/op08/op08_0002.ogg
+game/audio/voice/op08/op08_0003.ogg:voice/op08/op08_0003.ogg
+game/audio/voice/op08/op08_0004.ogg:voice/op08/op08_0004.ogg
+game/audio/voice/op08/op08_0005.ogg:voice/op08/op08_0005.ogg
+game/audio/voice/op08/op08_0006.ogg:voice/op08/op08_0006.ogg
+game/audio/voice/op08/op08_0007.ogg:voice/op08/op08_0007.ogg
+game/audio/voice/op08/op08_0008.ogg:voice/op08/op08_0008.ogg
+game/audio/voice/op08/op08_0009.ogg:voice/op08/op08_0009.ogg
+game/audio/voice/op08/op08_0010.ogg:voice/op08/op08_0010.ogg
+game/audio/voice/op08/op08_0011.ogg:voice/op08/op08_0011.ogg
+game/audio/voice/op08/op08_0012.ogg:voice/op08/op08_0012.ogg
+game/audio/voice/op08/op08_0013.ogg:voice/op08/op08_0013.ogg
+game/audio/voice/op08/op08_0014.ogg:voice/op08/op08_0014.ogg
+game/audio/voice/op08/op08_0015.ogg:voice/op08/op08_0015.ogg
+game/audio/voice/op08/op08_0016.ogg:voice/op08/op08_0016.ogg
+game/audio/voice/op08/op08_0017.ogg:voice/op08/op08_0017.ogg
+game/audio/voice/op08/op08_0018.ogg:voice/op08/op08_0018.ogg
+game/audio/voice/op08/op08_0019.ogg:voice/op08/op08_0019.ogg
+game/audio/voice/op08/op08_0020.ogg:voice/op08/op08_0020.ogg
+game/audio/voice/op08/op08_0021.ogg:voice/op08/op08_0021.ogg
+game/audio/voice/op08/op08_0022.ogg:voice/op08/op08_0022.ogg
+game/audio/voice/op08/op08_0023.ogg:voice/op08/op08_0023.ogg
+game/audio/voice/op08/op08_0024.ogg:voice/op08/op08_0024.ogg
+game/audio/voice/op08/op08_0025.ogg:voice/op08/op08_0025.ogg
+game/audio/voice/op08/op08_0026.ogg:voice/op08/op08_0026.ogg
+game/audio/voice/op08/op08_0027.ogg:voice/op08/op08_0027.ogg
+game/audio/voice/op08/op08_0028.ogg:voice/op08/op08_0028.ogg
+game/audio/voice/op08/op08_0029.ogg:voice/op08/op08_0029.ogg
+game/audio/voice/op08/op08_0030.ogg:voice/op08/op08_0030.ogg
+game/audio/voice/op08/op08_0031.ogg:voice/op08/op08_0031.ogg
+game/audio/voice/op08/op08_0032.ogg:voice/op08/op08_0032.ogg
+game/audio/voice/op08/op08_0033.ogg:voice/op08/op08_0033.ogg
+game/audio/voice/op08/op08_0034.ogg:voice/op08/op08_0034.ogg
+game/audio/voice/op08/op08_0035.ogg:voice/op08/op08_0035.ogg
+game/audio/voice/op08/op08_0036.ogg:voice/op08/op08_0036.ogg
+game/audio/voice/op08/op08_0037.ogg:voice/op08/op08_0037.ogg
+game/audio/voice/op08/op08_0038.ogg:voice/op08/op08_0038.ogg
+game/audio/voice/op08/op08_0039.ogg:voice/op08/op08_0039.ogg
+game/audio/voice/op08/op08_0040.ogg:voice/op08/op08_0040.ogg
+game/audio/voice/op08/op08_0041.ogg:voice/op08/op08_0041.ogg
+game/audio/voice/op08/op08_0042.ogg:voice/op08/op08_0042.ogg
+game/audio/voice/op08/op08_0043.ogg:voice/op08/op08_0043.ogg
+game/audio/voice/op08/op08_0044.ogg:voice/op08/op08_0044.ogg
+game/audio/voice/op08/op08_0045.ogg:voice/op08/op08_0045.ogg
+game/audio/voice/op08/op08_0046.ogg:voice/op08/op08_0046.ogg
+game/audio/voice/op08/op08_0047.ogg:voice/op08/op08_0047.ogg
+game/audio/voice/op08/op08_0048.ogg:voice/op08/op08_0048.ogg
+game/audio/voice/op08/op08_0049.ogg:voice/op08/op08_0049.ogg
+game/audio/voice/op08/op08_0050.ogg:voice/op08/op08_0050.ogg
+game/audio/voice/op08/op08_0051.ogg:voice/op08/op08_0051.ogg
+game/audio/voice/op08/op08_0052.ogg:voice/op08/op08_0052.ogg
+game/audio/voice/op08/op08_0053.ogg:voice/op08/op08_0053.ogg
+game/audio/voice/op08/op08_0054.ogg:voice/op08/op08_0054.ogg
+game/audio/voice/op08/op08_0055.ogg:voice/op08/op08_0055.ogg
+game/audio/voice/op08/op08_0056.ogg:voice/op08/op08_0056.ogg
+game/audio/voice/op08/op08_0057.ogg:voice/op08/op08_0057.ogg
+game/audio/voice/op08/op08_0058.ogg:voice/op08/op08_0058.ogg
+game/audio/voice/op08/op08_0059.ogg:voice/op08/op08_0059.ogg
+game/audio/voice/op08/op08_0060.ogg:voice/op08/op08_0060.ogg
+game/audio/voice/op08/op08_0061.ogg:voice/op08/op08_0061.ogg
+game/audio/voice/op08/op08_0062.ogg:voice/op08/op08_0062.ogg
+game/audio/voice/op08/op08_0063.ogg:voice/op08/op08_0063.ogg
+game/audio/voice/op08/op08_0064.ogg:voice/op08/op08_0064.ogg
+game/audio/voice/op08/op08_0065.ogg:voice/op08/op08_0065.ogg
+game/audio/voice/op08/op08_0066.ogg:voice/op08/op08_0066.ogg
+game/audio/voice/op08/op08_0067.ogg:voice/op08/op08_0067.ogg
+game/audio/voice/op08/op08_0068.ogg:voice/op08/op08_0068.ogg
+game/audio/voice/op08/op08_0069.ogg:voice/op08/op08_0069.ogg
+game/audio/voice/op08/op08_0070.ogg:voice/op08/op08_0070.ogg
+game/audio/voice/op08/op08_0071.ogg:voice/op08/op08_0071.ogg
+game/audio/voice/op08/op08_0072.ogg:voice/op08/op08_0072.ogg
+game/audio/voice/op08/op08_0073.ogg:voice/op08/op08_0073.ogg
+game/audio/voice/op08/op08_0074.ogg:voice/op08/op08_0074.ogg
+game/audio/voice/op08/op08_0075.ogg:voice/op08/op08_0075.ogg
+game/audio/voice/op08/op08_0076.ogg:voice/op08/op08_0076.ogg
+game/audio/voice/op08/op08_0077.ogg:voice/op08/op08_0077.ogg
+game/audio/voice/op08/op08_0078.ogg:voice/op08/op08_0078.ogg
+game/audio/voice/op08/op08_0079.ogg:voice/op08/op08_0079.ogg
+game/audio/voice/op08/op08_0080.ogg:voice/op08/op08_0080.ogg
+game/audio/voice/op08/op08_0081.ogg:voice/op08/op08_0081.ogg
+game/audio/voice/op08/op08_0082.ogg:voice/op08/op08_0082.ogg
+game/audio/voice/op08/op08_0083.ogg:voice/op08/op08_0083.ogg
+game/audio/voice/op08/op08_0084.ogg:voice/op08/op08_0084.ogg
+game/audio/voice/op08/op08_0085.ogg:voice/op08/op08_0085.ogg
+game/audio/voice/op08/op08_0086.ogg:voice/op08/op08_0086.ogg
+game/audio/voice/op08/op08_0087.ogg:voice/op08/op08_0087.ogg
+game/audio/voice/op08/op08_0088.ogg:voice/op08/op08_0088.ogg
+game/audio/voice/op08/op08_0089.ogg:voice/op08/op08_0089.ogg
+game/audio/voice/op08/op08_0090.ogg:voice/op08/op08_0090.ogg
+game/audio/voice/op08/op08_0091.ogg:voice/op08/op08_0091.ogg
+game/audio/voice/op08/op08_0092.ogg:voice/op08/op08_0092.ogg
+game/audio/voice/op08/op08_0093.ogg:voice/op08/op08_0093.ogg
+game/audio/voice/op08/op08_0094.ogg:voice/op08/op08_0094.ogg
+game/audio/voice/op08/op08_0095.ogg:voice/op08/op08_0095.ogg
+game/audio/voice/op08/op08_0096.ogg:voice/op08/op08_0096.ogg
+game/audio/voice/op08/op08_0097.ogg:voice/op08/op08_0097.ogg
+game/audio/voice/op08/op08_0098.ogg:voice/op08/op08_0098.ogg
+game/audio/voice/op08/op08_0099.ogg:voice/op08/op08_0099.ogg
+game/audio/voice/op08/op08_0100.ogg:voice/op08/op08_0100.ogg
+game/audio/voice/op08/op08_0101.ogg:voice/op08/op08_0101.ogg
+game/audio/voice/op08/op08_0102.ogg:voice/op08/op08_0102.ogg
+game/audio/voice/op08/op08_0103.ogg:voice/op08/op08_0103.ogg
+game/audio/voice/op08/op08_0104.ogg:voice/op08/op08_0104.ogg
+game/audio/voice/op08/op08_0105.ogg:voice/op08/op08_0105.ogg
+game/audio/voice/op08/op08_0106.ogg:voice/op08/op08_0106.ogg
+game/audio/voice/op08/op08_0107.ogg:voice/op08/op08_0107.ogg
+game/audio/voice/op08/op08_0108.ogg:voice/op08/op08_0108.ogg
+game/audio/voice/op08/op08_0109.ogg:voice/op08/op08_0109.ogg
+game/audio/voice/op08/op08_0110.ogg:voice/op08/op08_0110.ogg
+game/audio/voice/op08/op08_0111.ogg:voice/op08/op08_0111.ogg
+game/audio/voice/op08/op08_0112.ogg:voice/op08/op08_0112.ogg
+game/audio/voice/op08/op08_0113.ogg:voice/op08/op08_0113.ogg
+game/audio/voice/op08/op08_0114.ogg:voice/op08/op08_0114.ogg
+game/audio/voice/op08/op08_0115.ogg:voice/op08/op08_0115.ogg
+game/audio/voice/op08/op08_0116.ogg:voice/op08/op08_0116.ogg
+game/audio/voice/op08/op08_0117.ogg:voice/op08/op08_0117.ogg
+game/audio/voice/op08/op08_0118.ogg:voice/op08/op08_0118.ogg
+game/audio/voice/op08/op08_0119.ogg:voice/op08/op08_0119.ogg
+game/audio/voice/op08/op08_0120.ogg:voice/op08/op08_0120.ogg
+game/audio/voice/op08/op08_0121.ogg:voice/op08/op08_0121.ogg
+game/audio/voice/op08/op08_0122.ogg:voice/op08/op08_0122.ogg
+game/audio/voice/op08/op08_0123.ogg:voice/op08/op08_0123.ogg
+game/audio/voice/op08/op08_0124.ogg:voice/op08/op08_0124.ogg
+game/audio/voice/op08/op08_0125.ogg:voice/op08/op08_0125.ogg
+game/audio/voice/op08/op08_0126.ogg:voice/op08/op08_0126.ogg
+game/audio/voice/op08/op08_0127.ogg:voice/op08/op08_0127.ogg
+game/audio/voice/op08/op08_0128.ogg:voice/op08/op08_0128.ogg
+game/audio/voice/op08/op08_0129.ogg:voice/op08/op08_0129.ogg
+game/audio/voice/op08/op08_0130.ogg:voice/op08/op08_0130.ogg
+game/audio/voice/op08/op08_0131.ogg:voice/op08/op08_0131.ogg
+game/audio/voice/op08/op08_0132.ogg:voice/op08/op08_0132.ogg
+game/audio/voice/op08/op08_0133.ogg:voice/op08/op08_0133.ogg
+game/audio/voice/op08/op08_0134.ogg:voice/op08/op08_0134.ogg
+game/audio/voice/op08/op08_0135.ogg:voice/op08/op08_0135.ogg
+game/audio/voice/op08/op08_0136.ogg:voice/op08/op08_0136.ogg
+game/audio/voice/op08/op08_0137.ogg:voice/op08/op08_0137.ogg
+game/audio/voice/op08/op08_0138.ogg:voice/op08/op08_0138.ogg
 game/gui/window_icon.png:system/etc/icon.ico
 game/images/bg/bg01ndb.png:image/bg/bg01ndb.bmp
+game/images/bg/bg01b.png:image/bg/bg01b.bmp
+game/images/bg/bg07.png:image/bg/bg07.bmp
+game/images/bg/bg09.png:image/bg/bg09.bmp
 game/images/bg/bg13.png:image/bg/bg13.bmp
 game/images/bg/bg15c.png:image/bg/bg15c.bmp
 game/images/bg/bg17c.png:image/bg/bg17c.bmp
@@ -497,6 +641,7 @@ game/images/chr/fau 001.png:image/ch/fau/long/fau_001.bmp
 game/images/chr/fau 002.png:image/ch/fau/long/fau_002.bmp
 game/images/chr/fau 003.png:image/ch/fau/long/fau_003.bmp
 game/images/chr/fau 004.png:image/ch/fau/long/fau_004.bmp
+game/images/chr/fau 005.png:image/ch/fau/long/fau_005.bmp
 game/images/chr/fau 007.png:image/ch/fau/long/fau_007.bmp
 game/images/chr/fau 008.png:image/ch/fau/long/fau_008.bmp
 game/images/chr/fau 009.png:image/ch/fau/long/fau_009.bmp
@@ -541,6 +686,66 @@ game/images/chr/jor 113.png:image/ch/jor/long/jor_113.bmp
 game/images/chr/jor 114.png:image/ch/jor/long/jor_114.bmp
 game/images/chr/jor 115.png:image/ch/jor/long/jor_115.bmp
 game/images/chr/jor 117.png:image/ch/jor/long/jor_117.bmp
+game/images/chr/kur 000.png:image/ch/kur/long/kur_000.bmp
+game/images/chr/kur 001.png:image/ch/kur/long/kur_001.bmp
+game/images/chr/kur 002.png:image/ch/kur/long/kur_002.bmp
+game/images/chr/kur 004.png:image/ch/kur/long/kur_004.bmp
+game/images/chr/kur 005.png:image/ch/kur/long/kur_005.bmp
+game/images/chr/kur 006.png:image/ch/kur/long/kur_006.bmp
+game/images/chr/kur 007.png:image/ch/kur/long/kur_007.bmp
+game/images/chr/kur 008.png:image/ch/kur/long/kur_008.bmp
+game/images/chr/kur 009.png:image/ch/kur/long/kur_009.bmp
+game/images/chr/kur 010.png:image/ch/kur/long/kur_010.bmp
+game/images/chr/kur 011.png:image/ch/kur/long/kur_011.bmp
+game/images/chr/kur 012.png:image/ch/kur/long/kur_012.bmp
+game/images/chr/kur 013.png:image/ch/kur/long/kur_013.bmp
+game/images/chr/kur 015.png:image/ch/kur/long/kur_015.bmp
+game/images/chr/kur 100.png:image/ch/kur/long/kur_100.bmp
+game/images/chr/kur 101.png:image/ch/kur/long/kur_101.bmp
+game/images/chr/kur 102.png:image/ch/kur/long/kur_102.bmp
+game/images/chr/kur 104.png:image/ch/kur/long/kur_104.bmp
+game/images/chr/kur 105.png:image/ch/kur/long/kur_105.bmp
+game/images/chr/kur 106.png:image/ch/kur/long/kur_106.bmp
+game/images/chr/kur 107.png:image/ch/kur/long/kur_107.bmp
+game/images/chr/kur 108.png:image/ch/kur/long/kur_108.bmp
+game/images/chr/kur 109.png:image/ch/kur/long/kur_109.bmp
+game/images/chr/kur 110.png:image/ch/kur/long/kur_110.bmp
+game/images/chr/kur 111.png:image/ch/kur/long/kur_111.bmp
+game/images/chr/kur 112.png:image/ch/kur/long/kur_112.bmp
+game/images/chr/kur 113.png:image/ch/kur/long/kur_113.bmp
+game/images/chr/kur 115.png:image/ch/kur/long/kur_115.bmp
+game/images/chr/kur 200.png:image/ch/kur/long/kur_200.bmp
+game/images/chr/kur 201.png:image/ch/kur/long/kur_201.bmp
+game/images/chr/kur 202.png:image/ch/kur/long/kur_202.bmp
+game/images/chr/kur 204.png:image/ch/kur/long/kur_204.bmp
+game/images/chr/kur 205.png:image/ch/kur/long/kur_205.bmp
+game/images/chr/kur 206.png:image/ch/kur/long/kur_206.bmp
+game/images/chr/kur 207.png:image/ch/kur/long/kur_207.bmp
+game/images/chr/kur 208.png:image/ch/kur/long/kur_208.bmp
+game/images/chr/kur 209.png:image/ch/kur/long/kur_209.bmp
+game/images/chr/kur 210.png:image/ch/kur/long/kur_210.bmp
+game/images/chr/kur 211.png:image/ch/kur/long/kur_211.bmp
+game/images/chr/kur 212.png:image/ch/kur/long/kur_212.bmp
+game/images/chr/kur 213.png:image/ch/kur/long/kur_213.bmp
+game/images/chr/kur 214.png:image/ch/kur/long/kur_214.bmp
+game/images/chr/kur 215.png:image/ch/kur/long/kur_215.bmp
+game/images/chr/kur 216.png:image/ch/kur/long/kur_216.bmp
+game/images/chr/kur 217.png:image/ch/kur/long/kur_217.bmp
+game/images/chr/kur 219.png:image/ch/kur/long/kur_219.bmp
+game/images/chr/kur 302.png:image/ch/kur/long/kur_302.bmp
+game/images/chr/kur 308.png:image/ch/kur/long/kur_308.bmp
+game/images/chr/kur 310.png:image/ch/kur/long/kur_310.bmp
+game/images/chr/kur 314.png:image/ch/kur/long/kur_314.bmp
+game/images/chr/kur 316.png:image/ch/kur/long/kur_316.bmp
+game/images/chr/kur 317.png:image/ch/kur/long/kur_317.bmp
+game/images/chr/kur 318.png:image/ch/kur/long/kur_318.bmp
+game/images/chr/kur 400.png:image/ch/kur/long/kur_400.bmp
+game/images/chr/kur 401.png:image/ch/kur/long/kur_401.bmp
+game/images/chr/kur 405.png:image/ch/kur/long/kur_405.bmp
+game/images/chr/kur 408.png:image/ch/kur/long/kur_408.bmp
+game/images/chr/kur 409.png:image/ch/kur/long/kur_409.bmp
+game/images/chr/kur 412.png:image/ch/kur/long/kur_412.bmp
+game/images/chr/kur 415.png:image/ch/kur/long/kur_415.bmp
 game/images/chr/leu 000.png:image/ch/leu/long/leu_000.bmp
 game/images/chr/leu 001.png:image/ch/leu/long/leu_001.bmp
 game/images/chr/leu 002.png:image/ch/leu/long/leu_002.bmp
@@ -598,6 +803,8 @@ game/images/chr/leu 302.png:image/ch/leu/long/leu_302.bmp
 game/images/chr/leu 303.png:image/ch/leu/long/leu_303.bmp
 game/images/chr/leu 304.png:image/ch/leu/long/leu_304.bmp
 game/images/chr/leu 305.png:image/ch/leu/long/leu_305.bmp
+game/images/chr/mao 000.png:image/ch/kur/long/mao_000.bmp
+game/images/chr/mao 001.png:image/ch/kur/long/mao_001.bmp
 game/images/chr/oga 000.png:image/ch/oga/long/oga_000.bmp
 game/images/chr/oga 001.png:image/ch/oga/long/oga_001.bmp
 game/images/chr/oga 002.png:image/ch/oga/long/oga_002.bmp
