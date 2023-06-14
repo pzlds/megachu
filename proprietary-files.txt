@@ -624,8 +624,8 @@ game/audio/voice/op08/op08_0136.ogg:voice/op08/op08_0136.ogg
 game/audio/voice/op08/op08_0137.ogg:voice/op08/op08_0137.ogg
 game/audio/voice/op08/op08_0138.ogg:voice/op08/op08_0138.ogg
 game/gui/window_icon.png:system/etc/icon.ico
-game/images/bg/bg01ndb.png:image/bg/bg01ndb.bmp
 game/images/bg/bg01b.png:image/bg/bg01b.bmp
+game/images/bg/bg01ndb.png:image/bg/bg01ndb.bmp
 game/images/bg/bg07.png:image/bg/bg07.bmp
 game/images/bg/bg09.png:image/bg/bg09.bmp
 game/images/bg/bg13.png:image/bg/bg13.bmp
@@ -810,10 +810,10 @@ game/images/chr/oga 001.png:image/ch/oga/long/oga_001.bmp
 game/images/chr/oga 002.png:image/ch/oga/long/oga_002.bmp
 game/images/chr/oga 003.png:image/ch/oga/long/oga_003.bmp
 game/images/chr/oga 004.png:image/ch/oga/long/oga_004.bmp
-game/images/evg/fau_h000.png:image/evg/fau/fau_h000.bmp
 game/images/evg/fau_h000_big.png:image/evg/fau/fau_h000_big.bmp
-game/images/evg/fau_n001a.png:image/evg/fau/fau_n001a.bmp
+game/images/evg/fau_h000.png:image/evg/fau/fau_h000.bmp
 game/images/evg/fau_n001a_big.png:image/evg/fau/fau_n001a_big.bmp
+game/images/evg/fau_n001a.png:image/evg/fau/fau_n001a.bmp
 game/images/evg/fau_n001b.png:image/evg/fau/fau_n001b.bmp
 game/images/evg/fau_n001c.png:image/evg/fau/fau_n001c.bmp
 game/images/face/side fau 000.png:image/face/fau/fauf_000.bmp
@@ -942,8 +942,8 @@ game/images/op_movie.mpg:movie/op_movie.mpg
 game/images/wipe/06.png:wipe/06.bmp
 game/images/wipe/08.png:wipe/08.bmp
 game/splash/caution.png:script/logo/caution_Cation.png
-game/splash/logo.png:script/logo/logo_logo.png
 game/splash/logo.ogg:script/logo/logo_se900.ogg
+game/splash/logo.png:script/logo/logo_logo.png
 game/title/bg.png:script/title/titlebg_Title_BG.png
 game/title/fau.png:script/title/titlebg_Title_ｷｬﾗ03.png
 game/title/jor.png:script/title/titlebg_Title_ｷｬﾗ01.png
