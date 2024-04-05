@@ -19,6 +19,8 @@ define lea = DynamicCharacter("lea_name", image="leu")
 define lea_name = _("レア")
 define klotho = DynamicCharacter("klotho_name", image="kur")
 define klotho_name = _("クロト")
+define shuryo = DynamicCharacter("shuryo_name")
+define shuryo_name = _("首領")
 
 image white = "#ffffff"
 
